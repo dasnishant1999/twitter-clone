@@ -1,0 +1,55 @@
+.widgets {
+  flex: 0.2;
+  margin: 5px 20px;
+}
+
+.widgets__search {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.widgets__search > input {
+  font-size: 18px;
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+/* .widgets__search>.MuiSvgIcon-root{
+    padding: 0 10px;
+} */
+
+.widget__container {
+  background-color: var(--twitter-background);
+  margin: 20px 5px;
+  width: 98%;
+  /* height: 300px; */
+  border-radius: 15px;
+}
+
+.widget__container > h2 {
+  padding: 10px;
+}
+
+.widget__container>h3{
+    padding: 10px;
+    font-weight: 500;
+    color: var(--twitter-color);
+}
+
+.widget__covid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widget__covid>img{
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    
+}

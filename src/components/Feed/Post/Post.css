@@ -1,0 +1,35 @@
+.post {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.post__avatar {
+  height: 60px !important;
+  width: 60px !important;
+}
+.post__body {
+  flex: 1;
+  margin: 5px 20px;
+}
+
+.post__body > img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+}
+.post__header > h4 {
+  font-weight: 500;
+  color: gray;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+}

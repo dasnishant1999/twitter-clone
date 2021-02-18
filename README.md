@@ -1,3 +1,14 @@
+This is a single page clone of twitter.
+The webApp have functionality of just posting
+a tweet with imageURL.
+Left(navigator) and right side(widgets) of the webApp are static UI.
+
+### Material UI
+
+### firebase
+
+### react-flip-move
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
